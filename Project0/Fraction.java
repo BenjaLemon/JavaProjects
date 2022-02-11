@@ -284,7 +284,7 @@ public class Fraction {
      */
     private int gcd(){
         //use euclidean algorithm to find gcd efficiently
-        //If A = B⋅Q + R and B≠0 then GCD(A,B) = GCD(B,R)
+        //If A = BxQ + R and B!=0 then GCD(A,B) = GCD(B,R)
         //only use absolute values of numerator and denominator as the 
         //numerator may be negative and we want a positive gcd
         int a = Math.abs(numerator);
